@@ -27,9 +27,6 @@ def user_command():
     try:
         print("Recognizing...")
         query = r.recognize_google(audio, language="en-IN")
-    # for testing purposes, we're just using the default API key
-    # to use another API key, use `r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")`
-    # instead of `r.recognize_google(audio)`
     except sr.UnknownValueError:
         query = "Sorry Sir I could not understand that"
     except sr.RequestError as e:
