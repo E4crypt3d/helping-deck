@@ -1,7 +1,7 @@
-{"music_playlist" : "",
+{"music_playlist" : "your_playlist_link_here",
 
-"your_website" : "https://justcodedblog.herokuapp.com",
+"your_website" : "your_website_link_here",
 
-"vscode_path" : "",
+"vscode_path" : "path_for_your_vscode",
 
-"sublime_path" : ""}
+"sublime_path" : "path_for_your_sublime"}
