@@ -31,4 +31,12 @@ The Voice Assistant can perform the following tasks:
 ## Configuration
 The assistant can be configured to perform specific tasks based on your preferences. The configuration options can be found in the ```config.json``` file.
 
-Edit the config file according to your needs
+To configure the assistant, you can modify the following options in the ```"config.json"``` file:
+
+- ```"music_playlist"```: Set the URL of your preferred music playlist on a website like YouTube.
+- ```"your_website"```: Set the URL of your personal website or blog.
+- ```"vscode_path"```: Set the file path to the Visual Studio Code executable on your system.
+- ```"sublime_path"```: Set the file path to the Sublime Text executable on your system.
+
+
+Make sure to save any changes you make to the ```"config.json"``` file. The assistant will use these configurations to perform specific tasks such as opening your preferred music playlist, your website, or your preferred text editor.
